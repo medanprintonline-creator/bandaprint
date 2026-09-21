@@ -3,6 +3,9 @@
 // calculator.js — Kalkulator Harga Final
 // ==========================================================
 
+// Deklarasi variabel currentTab untuk melacak tab aktif
+let currentTab = "dokumen";
+
 const PRICING = {
     dokumen: {
         A4: { bw: 350, "full-color": 1000, mixed: 600 },
@@ -187,7 +190,6 @@ function quickSetCalc(type) {
         switchTab("spanduk");
     }
 
-    // switchTab() sudah menjalankan calculatePrice()
     const calculator = document.getElementById("kalkulator");
 
     if (calculator) {
@@ -423,3 +425,10 @@ function calculatePrice() {
 
     setSummary(summaryHTML, total);
 }
+
+// ----------------------------------------------------------
+// Inisialisasi Otomatis Saat Halaman Dimuat
+// ----------------------------------------------------------
+document.addEventListener("DOMContentLoaded", () => {
+    switchTab("dokumen");
+});
