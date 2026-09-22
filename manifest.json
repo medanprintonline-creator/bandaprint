@@ -1,0 +1,16 @@
+{
+  "name": "BandaAcehPrint - Percetakan Digital Banda Aceh",
+  "short_name": "BandaAcehPrint",
+  "description": "Cetak dokumen, skripsi, spanduk, stiker, dan kartu nama di Banda Aceh.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "lang": "id-ID",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
