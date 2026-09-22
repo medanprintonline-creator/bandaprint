@@ -17,14 +17,29 @@
     <meta name="geo.position" content="5.5557965;95.3587166">
     <meta name="ICBM" content="5.5557965, 95.3587166">
 
+    <!-- ============================================================ -->
+    <!-- FAVICON & ICONS (semua di folder icons/)                     -->
+    <!-- ============================================================ -->
+    <link rel="icon" type="image/x-icon" href="/icons/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <meta name="msapplication-TileColor" content="#0F172A">
+    <meta name="msapplication-TileImage" content="/icons/mstile-150x150.png">
+    <meta name="msapplication-config" content="/icons/browserconfig.xml">
+    <meta name="application-name" content="BandaAcehPrint">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#06B6D4">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/icons/icon-512.png">
+    <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#0F172A">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="apple-mobile-web-app-title" content="BandaAcehPrint">
-
-    <link rel="manifest" href="manifest.json">
-    <link rel="apple-touch-icon" href="icons/icon-192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/icon-192.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=yes">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -33,6 +48,9 @@
     <meta property="og:title" content="Percetakan Digital Banda Aceh - Cetak Skripsi, Spanduk & Stiker">
     <meta property="og:description" content="Percetakan digital & offset terpercaya di Banda Aceh. Hitung harga cetak online, pesan via WhatsApp.">
     <meta property="og:image" content="https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Workshop Percetakan Digital Banda Aceh">
     <meta property="og:locale" content="id_ID">
 
     <!-- Twitter -->
@@ -78,6 +96,7 @@
       "alternateName": "Fotocopy & Percetakan Aneuk Fulawan",
       "description": "Percetakan digital & offset profesional di Banda Aceh. Melayani cetak skripsi, spanduk flexi, stiker label, kartu nama, dan dokumen.",
       "image": "https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?auto=format&fit=crop&w=1200&q=80",
+      "logo": "https://bandaacehprint.com/icons/icon-512.png",
       "url": "https://bandaacehprint.com",
       "telephone": "+628116826887",
       "priceRange": "Rp",
@@ -353,10 +372,8 @@
             </div>
 
             <div class="grid lg:grid-cols-12 gap-6 lg:gap-8 items-start">
-                <!-- Form -->
                 <div class="lg:col-span-8 min-w-0 w-full glass-panel p-4 sm:p-8 rounded-3xl border border-slate-700/80">
 
-                    <!-- ✅ TAB SWITCHER: Grid 2x2 di mobile, horizontal di desktop -->
                     <div class="grid grid-cols-2 sm:flex sm:overflow-x-auto no-scrollbar gap-2 pb-4 mb-6 border-b border-slate-800" role="tablist" aria-label="Pilih kategori layanan">
                         <button type="button" id="tab-dokumen" onclick="switchTab('dokumen')" role="tab" aria-selected="true" aria-controls="form-dokumen" class="tab-btn w-full sm:w-auto sm:shrink-0 px-3 sm:px-4 py-3 sm:py-2.5 rounded-xl font-bold text-xs whitespace-nowrap transition-all bg-cmyk-cyan text-navy-950 flex items-center justify-center gap-1.5">
                             <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
